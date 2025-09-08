@@ -12,7 +12,8 @@ game_level = 3
 enemy = ["Skeleton", "Zombie", "Witch"]
 def create_new_enemy():
     if game_level < 5:
-        new_enemy = enemy[0]
+        new_enemy = enemy[0] # --> Global variable
     print(new_enemy)
 create_new_enemy()
 print(new_enemy) # --> Don't show any value because the variable value its inside the function, return NameError, is not defined
+
