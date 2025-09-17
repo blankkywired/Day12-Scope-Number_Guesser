@@ -22,8 +22,8 @@ def set_difficulty():
     else:
         return LEVEL_HARD
 def game():
-    attemp_turns = set_difficulty()
-    user_guess = 0
+    attemp_turns = set_difficulty() #Will take the level value of difficulty setted by the user 
+    user_guess = 0 #Initial value to start while loop after
     answer = random.randint(1, 100)
    #print(answer)
     print("Guess my number between 1 to 100\nI'm thinking in a number, what's it?'")
