@@ -37,11 +37,3 @@ def game():
             print(f'Nah, the correct answer was {answer}')
             break
 game()
-
-#DFluxograma
-
-#1 - a funçao game() inicia o codigo, o usuario escolhe o nivel de dificuldade
-#2 - A dificuldade encrementa o numero maximo de tentativas que o usuario terá ate acertar o numero
-#3 - A resposta é escolhida pelo modulo random.randint
-#4 - A função check a cada iteração do usuario ira checar o numero do usuario,a resposta escolhida inicialmente  e a quantidade de tentativas restantes
-#5 - aa variavel attemp_turns recebe o valor de dentro de uma função(set_difficulty), e tambem será usada como parametro dentro da função check, e a cada erro do usuario será subtraido uma unidade
